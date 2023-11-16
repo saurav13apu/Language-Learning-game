@@ -1,0 +1,116 @@
+.parent{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 60vw;
+    /* border: 2px solid black; */
+}
+
+.type1{
+    /* border: 2px solid black; */
+    padding: 4em 12em;
+    display: flex;
+}
+
+.type2{
+    /* border: 2px solid black; */
+    padding: 4em 12em;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+button.level{
+    font-weight: 600;
+    color: #382b22;
+    text-transform: uppercase;
+    padding: 2em 2em;
+    background: #efefef;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    transform-style: preserve-3d;
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1)
+}
+
+button.level::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #afafaf;
+    border-radius: inherit;
+    box-shadow: 0 0 0 2px #9c9c9c, 0 0.625em 0 0 #909090;
+    transform: translate3d(0, 0.75em, -1em);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1),
+}
+
+button.level:hover{
+    background: #efefef;
+      transform: translate(0, 0.25em);
+}
+
+button.level:hover::before{
+    box-shadow: 0 0 0 2px #9c9c9c, 0 0.5em 0 0 #909090;
+    transform: translate3d(0, 0.5em, -1em);
+}
+
+button.level:active{
+    background: #efefef;
+    transform: translate(0em, 0.75em);
+}
+
+button.level:active::before{
+    box-shadow: 0 0 0 2px #9c9c9c, 0 0 #909090
+}
+
+.overlay{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.overlay-content{
+    margin: 5px;
+    font-weight: 60;
+    color: #382b22;
+    text-transform: uppercase;
+    padding: 8px 7px;
+    background: #efefef;
+    border: 2px solid #000000;
+    border-radius: 10%;
+    transform-style: preserve-3d;
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    box-sizing: border-box;
+    
+}
+
+.sqare-button{
+    width: 40px; /* Adjust the width to your desired size */
+    height: 30px; /* Same as the width for a square button */
+    background-color: #63729f; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+    cursor: pointer;
+    font-size: 16px; /* Adjust the font size as needed */
+}

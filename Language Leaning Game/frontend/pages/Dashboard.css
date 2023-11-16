@@ -1,0 +1,163 @@
+.row-one{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.block{
+    width: 20vw;
+    height: 30vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 1px 13px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+.block:hover{
+    box-shadow: 5px 3px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: ease 0.2s;
+}
+
+.row-two{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.block-three{
+    width: 36vw;
+}
+
+.header{
+    height: 80px;
+    background-color: black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: 12px;
+}
+
+.block p{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3vh;
+    margin-bottom: 50px;
+}
+
+.header p{
+    margin-left: 20px;
+    padding-bottom: 0px;
+    color: rgb(198, 194, 194);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.block-content p{
+    margin-top: 0px;
+    padding-top: 0px;
+    color: rgb(130, 129, 129);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-four{
+    width: 30vw;
+    margin-left: 34px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.slab{
+    width: 500px;
+    height: 110px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 1px 13px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.slab:hover{
+    box-shadow: 5px 3px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: ease 0.2s;
+}
+
+.block-five{
+    width: 54vw;
+    height: 46vh;
+    margin-right: 30px;
+}
+
+.streak{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px !important;
+}
+
+.remarks{
+    padding: 22px;
+}
+
+.remarks p{
+    font-family:cursive;
+    font-size: 25px !important;
+    color: rgb(136, 135, 135)
+}
+
+.slab{
+    position: relative;
+    background-color: black;
+}
+
+.score-section{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    width: 180px;
+    height: 82px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 10px;
+}
+
+.excercise-number{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px !important;
+}
+
+.slab-header{
+    margin-left: 30px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+}
+
+.score-section{
+    padding-top: 0px;
+    margin-top: 0px;
+    color: rgb(109, 109, 109);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px !important;
+}
+.score-section p{
+    padding-top: 0px;
+    margin-top: 15px;
+    margin-left: 44px;
+}

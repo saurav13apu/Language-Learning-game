@@ -1,0 +1,85 @@
+.board{
+    border: 2px solid black;
+    width: 50vw;
+    height: 67vh;
+    border-radius: 1em;
+    box-shadow: 2px 2px 4px 4px #c0c0c0;
+}
+
+.ques, .option{
+    border: 2px solid black
+}
+
+.ques{
+    height: 20%;
+    margin: 1.5em;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.option{
+    border-radius: 1em;
+    margin: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.submit-button:hover, .option:hover{
+    transition: all 0.15s ease-in-out;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.submit-button:active, .option:active{
+    transition: all 0.1s ease-in-out;
+    background: #efefef;
+    transform: translate(0em, 0.3em);
+}
+
+.options{
+    height: 50%;
+    margin: 1.5em;
+    border-radius: 1em;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.submit{
+    height: 10%;
+    margin: 1.5em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.submit-button{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 1em;
+}
+
+.correct{
+    background-color: greenyellow;
+}
+
+.wrong{
+    background-color: red;
+}
+
+.screen{
+    position: absolute;
+    left: 29%;
+    width: 45vw;
+    height: 33vh;
+    border: 2px solid black;
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
